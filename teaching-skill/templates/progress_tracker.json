@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "first-principles-coach",
+  "template_purpose": "Track student progress across 13 lessons + thinking pattern statistics",
+  "usage_notes": [
+    "AI 教练在每次学生回答后更新此文件",
+    "scores 字段：每课最高分，1-5 整数；null = 未开始",
+    "attempts：学生对该课的尝试次数（含未达 4 分的）",
+    "weak_layer：薄弱层（abstract / concrete / null）",
+    "thinking_patterns 用于发现学生的思维习惯（不要用于评价，只用于诊断）"
+  ],
+  "student": {
+    "id": "",
+    "display_name": "",
+    "started_at": "ISO-8601",
+    "last_active": "ISO-8601",
+    "motivation": "（首次进入时学生回答的'为什么想学'——一段话）"
+  },
+  "lessons": {
+    "1": {
+      "title": "刻意练习三步骤",
+      "core_concept": "明确目标 + 极度专注 + 即时反馈",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "2": {
+      "title": "思维模型学习法",
+      "core_concept": "模型 = 可迁移的认知工具",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "3": {
+      "title": "如何从读书中学习",
+      "core_concept": "读薄 + 读厚 + 读回来",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "4": {
+      "title": "第一性原理是使用演绎法的推理基石",
+      "core_concept": "第一性原理 + 演绎法",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "5": {
+      "title": "哲学基石",
+      "core_concept": "本体论 + 认识论",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "6": {
+      "title": "如何发现第一性原理",
+      "core_concept": "质疑假设 + 拆分到不可拆 + 重新组装",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "7": {
+      "title": "牛顿世界观",
+      "core_concept": "绝对时空 + 决定论 + 还原论",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "8": {
+      "title": "达尔文世界观",
+      "core_concept": "变异 + 选择 + 渐进",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "9": {
+      "title": "影响政治经济",
+      "core_concept": "牛顿式（中央规划）vs 达尔文式（分散试错）",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "10": {
+      "title": "巴菲特思考",
+      "core_concept": "股票 = 公司所有权 + 市场先生是仆人",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "11": {
+      "title": "孙正义时光机",
+      "core_concept": "时间差套利 + 模式跨地域相似",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "12": {
+      "title": "马斯克方法论",
+      "core_concept": "质疑假设 + 拆分到物理量",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    },
+    "13": {
+      "title": "非连续性模型",
+      "core_concept": "识别 S 曲线拐点 + 看到假设更替",
+      "status": "not_started",
+      "score": null,
+      "best_score": { "abstract": null, "concrete": null },
+      "attempts": 0,
+      "weak_layer": null,
+      "completed_at": null,
+      "last_review_at": null,
+      "key_question_answered": false,
+      "notes": ""
+    }
+  },
+  "thinking_patterns": {
+    "_description": "学生的思维习惯统计——用于诊断，不用于评价。",
+    "inductive_trap_count": {
+      "_definition": "学生用归纳法跳到'都是'的次数",
+      "_detection_signal": "学生说'X 都是 Y'，且没有具体推理过程",
+      "count": 0,
+      "occurrences": []
+    },
+    "logic_jump_count": {
+      "_definition": "学生从 A 直接跳到 C 的次数",
+      "_detection_signal": "追问'中间那一步呢'时学生答不上来",
+      "count": 0,
+      "occurrences": []
+    },
+    "pattern_recognition": {
+      "_definition": "学生识别'这是 XX 模型的应用'的成功率",
+      "success": 0,
+      "fail": 0,
+      "rate": null,
+      "_calculation": "rate = success / (success + fail)"
+    },
+    "transfer_application": {
+      "_definition": "学生把一个领域的方法迁移到另一领域的成功率",
+      "success": 0,
+      "fail": 0,
+      "rate": null,
+      "_calculation": "rate = success / (success + fail)"
+    }
+  },
+  "overall": {
+    "completion_rate": null,
+    "completed_lessons": [],
+    "current_lesson": null,
+    "average_score": null,
+    "highest_score_lessons": [],
+    "lowest_score_lessons": [],
+    "total_attempts": 0,
+    "diagnosed_weakness": null
+  },
+  "milestones": {
+    "first_4_score": {
+      "achieved": false,
+      "lesson": null,
+      "at": null
+    },
+    "first_5_score": {
+      "achieved": false,
+      "lesson": null,
+      "at": null
+    },
+    "all_13_completed": {
+      "achieved": false,
+      "at": null
+    }
+  }
+}
